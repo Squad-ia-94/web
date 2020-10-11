@@ -6,11 +6,7 @@
 html, body{
    height: 100%;
 }
-.container{
-  width: 100%;
-  height: 100%;
-  background: #42455a;
-}
+
 .menu ul{
   display: inline-flex;
   margin: 50px;
@@ -51,9 +47,78 @@ html, body{
   float: left;
 }
 .app-picture{
-  width: 50%;
+  width: 100%;
+  height: 100%;
   float: right;
 }
 .app-picture img {
   width: 100%;
+}
+.wrapper {
+	width: 100;
+
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+  /* background: #42455a; */
+  background: #B5E3FF;
+}
+
+
+
+.header {
+	height: 150px;
+	background: #FFE680;
+  margin-left: 250px;
+}
+
+
+
+.middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+  height: 100%;
+  float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 0 0 250px;
+}
+
+
+
+.left-sidebar {
+	float: left;
+	width: 250px;
+  height: 1105px;
+	margin-left: -100%;
+	position: relative;
+	background: #B5E3FF;
+}
+
+
+
+.footer {
+	width: 1920px;
+	margin: -100px auto 0;
+	height: 100px;
+	background: #BFF08E;
+	position: relative;
+  margin-left: 250px;
+}
+.logo img{
+  position: absolute;
+  left: 0px;
+  bottom: 799px;
+  width: 250px;
+  height: 150px;
 }
